@@ -4,7 +4,7 @@
 * `html.css`
 * `main.css`
 * `main-ie.css` (для IE 8 и меньше)
-* `main-ie-lte-7.css` (если нужно что-то для IE 8 и меньше)
+* `main-ie-lte-7.css` (если нужно что-то для IE 7 и меньше)
 * `links.css`
 * `utils.css`
 * `icons.css`
