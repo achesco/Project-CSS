@@ -1,0 +1,102 @@
+.g-clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+.g-cleared {
+	clear: both;
+	padding-bottom: 1px; /* Margin-bottom fix for Opera <= 10 */
+}
+.g-cleared:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+
+.g-invisible {
+	visibility: hidden;
+}
+
+.g-hidden {
+	display: none !important;
+}
+
+
+.g-unselectable{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	/* ??? */ behavior: expression(
+		( this.onselectstart = function(){ return !(1+(' ' + this.className + ' ').indexOf(' unselectable ')) } ),
+		( this.style.behavior = null )
+	);
+}
+/* Opera */
+.g-unselectable::selection { color: inherit }
+
+.g-phone,
+.g-number,
+.g-nowrap {
+	white-space: nowrap;
+}
+
+/* Cross-browser inline-block */
+.g-section {
+	display: -moz-inline-box;
+	display: inline-block;
+	vertical-align: top;
+
+	zoom: 1;
+	*display: inline;
+}
+.g-section_baseline {
+	vertical-align: baseline;
+}
+.g-section_bottom {
+	vertical-align: bottom;
+}
+
+/* Reducers */
+/* ??? */ .g-box-reducer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/* ??? */ .g-column-reducer {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+/* Rounded corners */
+
+.rc5 {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.rc10 {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.rc15 {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+
+.g-small {
+	font-size: 86.67%;
+}
+
+.g-moderate {
+	font-size: 93%;
+}
+
+
+.stick-to-header {
+	margin-top: -.7em;
+}

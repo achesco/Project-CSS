@@ -1,0 +1,269 @@
+html, body,
+ul, ol, li,
+dl, dt, dd,
+h1, h2, h3, h4, h5,
+p, blockquote,
+form, fieldset, legend,
+table, td, th {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #000;
+	font: normal 93.75%/1.4 Arial, sans-serif;
+}
+
+img {
+	border: 0;
+}
+
+img.left {
+	float: left;
+	margin-right: 15px;
+}
+
+img.right {
+	float: right;
+}
+
+p, dl {
+	margin-bottom: 1.2em;
+}
+
+/* ??? */ p.closer {
+	margin-top: -0.7em;
+}
+
+/* ??? */ p.compact {
+	margin-bottom: 0.5em;
+}
+
+/* ??? */ .before_list {
+	margin-bottom: -0.5em;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+ul.dash,
+ol {
+	margin-bottom: 2em;
+}
+
+ul.dash li,
+ol li {
+	margin-bottom: 1em;
+}
+
+ul.dash li li,
+ol li li {
+	margin-bottom: 0.5em;
+}
+
+ul.dash > li {
+	text-indent: -1.5em;
+	padding-left: 2.5em;
+}
+
+ul.dash > li:before {
+	content:'\2014\a0\a0';
+}
+
+ol > li {
+	margin-left: 2.5em;
+}
+
+ul.dash ul,
+ul.dash ol,
+ol ol,
+ol ul.dash {
+	margin: 0.5em 0 1.5em 0;
+	text-indent: 0;
+}
+
+/* ??? */ ul.dash_compact li {
+	padding-left: 1.5em;
+	margin-bottom: 0.175em;
+	text-indent: -1.25em;
+}
+/* ??? */ ul.dash_compact > li:before {
+	content:'\2014\a0';
+	color: #000;
+}
+
+/* ??? */ p + ul,
+/* ??? */ p + ol {
+	margin-top:-0.5em;
+}
+
+
+table {
+	border-collapse: collapse;
+
+}
+
+table td,
+table th {
+	text-align: left;
+	padding: 0.4em 0.5em;
+	vertical-align: top;
+}
+
+.table_data {}
+
+.table_data th {
+	vertical-align: bottom;
+	font-weight: normal
+}
+
+.table_data td {
+	padding-left: 1em;
+}
+
+.table_data .o {
+	background: #f6f8fa;
+}
+
+.table_data .b_b {
+	border-bottom: 1px solid #333;
+}
+.table_data .b_l {
+	border-left: 1px solid #ccc;
+}
+.table_data .b_r {
+	border-right: 1px solid #ccc;
+}
+
+table td.n {
+	text-align: right;
+}
+table th.c,
+table td.c {
+	text-align: center;
+}
+table td.vm {
+	vertical-align: middle;
+}
+
+
+.table_data .n-value {
+	margin-right: 30%;
+}
+.table_data .n-value_small {
+	margin-right: 50%;
+}
+.table_data .n-value_larger {
+	margin-right: 15%;
+}
+.table_data .n-value_nobr {
+	float: right;
+	white-space: nowrap;
+}
+
+.table_spaced {
+	margin-top: 2em;
+}
+
+.table_fill {
+	width: 100%;
+}
+
+
+sup,
+sub {
+	position: relative;
+	top: -0.5em;
+	font-size: 75%;
+	vertical-align: baseline;
+}
+
+sub {
+	top: 0.1em;
+}
+
+ins {
+	text-decoration: none;
+}
+
+hr {
+	border: 0;
+}
+
+h1, h2, h3, h4 {
+	font-weight: bold;
+}
+h2.slim, h3.slim, h4.slim {
+	font-weight: normal;
+}
+
+h1 {
+	position: relative;
+	font-size: 173%;
+	font-weight: normal;
+	margin: 0 0 .5em;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 133.33%;
+	margin-bottom: .5em;
+	line-height: 1.2;
+}
+
+h3 {
+	font-size:120%;
+	margin-bottom:0.2em;
+}
+
+h4 {
+	font-size:125%;
+	margin-bottom: .5em;
+}
+
+
+input,
+textarea,
+select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+input::-webkit-input-placeholder { color: #b2b2b2; }
+input:-moz-placeholder { color: #b2b2b2; }
+
+label.placeholder {
+	display: none;
+}
+
+
+blockquote {
+	font: 133%/1.4 Georgia, serif;
+	color: #043F76;
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+}
+
+.g-hang {
+	position: relative;
+	margin-left: -1.25em;
+	padding-right: .25em;
+}
+
+.file {
+	padding-left: 30px;
+	position: relative;
+	font-size: 87%;
+}
+.file + .file {
+	margin-top: -.5em;
+}

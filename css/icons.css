@@ -1,0 +1,32 @@
+.g-with-icon {
+	position: relative;
+}
+
+.g-icon {
+	position: absolute;
+	overflow: hidden;
+	background: url("icons.png") no-repeat;
+}
+
+a .g-icon,
+.g-pseudo .g-icon {
+	cursor: pointer;
+}
+
+
+/* File icons (begin) */
+
+.file .g-icon {
+	background: url("file-icons.png") no-repeat;
+	width: 24px;
+	height: 26px;
+	top: 0;
+	left: 0;
+}
+
+/* .g-icon_... */
+
+/* File icons (end) */
+
+
+/* .g-icon_... */

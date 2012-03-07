@@ -1,0 +1,119 @@
+.zf dl,
+.zf-buttons,
+.zf-range,
+.zf fieldset .zf-repeatbuttons {
+	zoom: 1;
+}
+
+.zf .zf-hint {
+	top: 1.7em;
+}
+
+.zf-combolist {
+	top: 1.45em;
+}
+
+.zf-combolist-active .zf-combolist {
+	width: 11.3em;
+}
+
+.zf-combo-box .zf-button {
+	background-position: -48px 0.16em;
+}
+
+.zf-date-box .zf-picker .zf-opener {
+	background-position: -28px 0.16em;
+}
+
+.zf-option input {
+	top: 0.66em;
+	margin: -5px 0 0 -2px;
+	*margin: -8px 0 0 -4px;
+}
+
+* html .zf-buttons {
+	position: relative;
+	z-index: -1;
+}
+
+* html .zf-option input {
+	margin-left: -21px;
+}
+
+* html .zf-date-box .zf-picker .zf-opener,
+* html .zf-combo-box .zf-button {
+	background-color: #EFEFEF;
+}
+
+.zf-buttons input,
+.zf-button,
+.zf-buttonprev,
+.zf-buttonnext,
+.zf-buttonadd,
+.zf-buttonremove,
+.zf-buttonup,
+.zf-buttondown,
+.zf-submit,
+.zf-calendar td,
+.zf-slider-control {
+	cursor: hand;
+}
+
+.zf-buttons input,
+input.zf-button,
+input.zf-buttonprev,
+input.zf-buttonnext,
+input.zf-submit {
+	width: auto;
+	overflow: visible;
+	padding: 0 0.5em;
+}
+
+input.zf-submit,
+#with-js .zf-buttons input {
+	display: inline;
+}
+
+dl.zf-required dt label,
+fieldset.zf-required legend span {
+	behavior: expression(!this.after? this.after = (1 | this.appendChild(document.createElement('ins')).appendChild(document.createTextNode('*'))) : '');
+}
+
+.form_no-required-asterics dl.zf-required dt label,
+.form_no-required-asterics fieldset.zf-required legend span {
+	behavior: false;
+}
+
+.zf-disabled dd input,
+.zf-disabled dd textarea {
+	border-color: #D4D0C8;
+}
+
+dd.zf-scrollable {
+	top: -5px;
+	padding-right: 18px;
+	overflow: visible;
+	overflow-y: scroll;
+}
+
+.zf-combo-box input {
+	float: left;
+}
+
+.zf-calendar input,
+.zf-combo-box .zf-button,
+.zf-date-box .zf-picker .zf-opener {
+	height: 1.45em;
+	overflow: hidden;
+}
+
+.zf-repeatbuttons input[type=button] {
+	height: 1.8em;
+	width: auto;
+	*width: 2.5em;
+	font-size: 0.8em;
+}
+
+#with-js fieldset.zf-selected {
+	clear: left;
+}
