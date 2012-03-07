@@ -1,0 +1,4 @@
+.form_no-required-asterics .zf-required label:after,
+.form_no-required-asterics .zf-required legend span:after {
+	display: none !important;
+}
