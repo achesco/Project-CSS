@@ -24,29 +24,16 @@ img {
 	border: 0;
 }
 
-img.left {
-	float: left;
-	margin-right: 15px;
-}
-
-img.right {
-	float: right;
-}
-
 p, dl {
 	margin-bottom: 1.2em;
 }
 
-/* ??? */ p.closer {
+p.closer {
 	margin-top: -0.7em;
 }
 
-/* ??? */ p.compact {
+p.compact {
 	margin-bottom: 0.5em;
-}
-
-/* ??? */ .before_list {
-	margin-bottom: -0.5em;
 }
 
 
@@ -90,18 +77,8 @@ ol ul.dash {
 	text-indent: 0;
 }
 
-/* ??? */ ul.dash_compact li {
-	padding-left: 1.5em;
-	margin-bottom: 0.175em;
-	text-indent: -1.25em;
-}
-/* ??? */ ul.dash_compact > li:before {
-	content:'\2014\a0';
-	color: #000;
-}
-
-/* ??? */ p + ul,
-/* ??? */ p + ol {
+p + ul,
+p + ol {
 	margin-top:-0.5em;
 }
 
@@ -122,7 +99,7 @@ table th {
 
 .table_data th {
 	vertical-align: bottom;
-	font-weight: normal
+	font-weight: normal;
 }
 
 .table_data td {
@@ -169,10 +146,6 @@ table td.vm {
 	white-space: nowrap;
 }
 
-.table_spaced {
-	margin-top: 2em;
-}
-
 .table_fill {
 	width: 100%;
 }
@@ -201,9 +174,6 @@ hr {
 h1, h2, h3, h4 {
 	font-weight: bold;
 }
-h2.slim, h3.slim, h4.slim {
-	font-weight: normal;
-}
 
 h1 {
 	position: relative;
@@ -220,12 +190,12 @@ h2 {
 }
 
 h3 {
-	font-size:120%;
-	margin-bottom:0.2em;
+	font-size: 120%;
+	margin-bottom: 0.2em;
 }
 
 h4 {
-	font-size:125%;
+	font-size: 125%;
 	margin-bottom: .5em;
 }
 
@@ -241,14 +211,8 @@ select {
 input::-webkit-input-placeholder { color: #b2b2b2; }
 input:-moz-placeholder { color: #b2b2b2; }
 
-label.placeholder {
-	display: none;
-}
-
 
 blockquote {
-	font: 133%/1.4 Georgia, serif;
-	color: #043F76;
 	margin-left: 1.5em;
 	margin-bottom: 1em;
 }
