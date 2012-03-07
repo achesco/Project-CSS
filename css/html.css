@@ -15,11 +15,6 @@ body {
 	height: 100%;
 }
 
-body {
-	color: #000;
-	font: normal 93.75%/1.4 Arial, sans-serif;
-}
-
 img {
 	border: 0;
 }
@@ -148,6 +143,12 @@ table td.vm {
 
 .table_fill {
 	width: 100%;
+}
+
+
+b,
+strong {
+    font-weight: bold;
 }
 
 
