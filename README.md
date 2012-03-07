@@ -10,7 +10,7 @@
 * `icons.css`
 * `fonts.css` (если есть)
 * `cols.css`
-* (контентные CSS-файлы проекта)
+* контентные CSS-файлы проекта
 * `zforms.css`
 * `zforms-ie.css` (для IE 8 и меньше)
 * `forms.css`
