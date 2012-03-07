@@ -4,12 +4,8 @@ h1, h2, h3, h4, h5,
 p,
 ul, ul li,
 dl, dt, dd,
-blockquote{
+blockquote {
 	zoom: 1;
-}
-
-ol * {
-	zoom: 0 !important;
 }
 
 sup, sub {
@@ -20,43 +16,4 @@ input,
 textarea,
 select {
 	font-size: 100%;
-}
-
-
-/*
-	Добавляем тире всем спискам, которым это задано классом .dash
-*/
-ul.dash {
-	behavior:expression(
-		function(eUl){
-			if(!this.dash){
-				this.dash = true;
-				$(eUl).find(">li").each(
-					function(){
-						$(this).prepend('<span class="d">&mdash;&nbsp;</span>');
-						this.runtimeStyle.textIndent = "-1.4em";
-						this.runtimeStyle.paddingLeft = "2.1em";
-					}
-				);
-	
-				eUl.runtimeStyle.behavior = "none";
-			}
-		}(this)
-	);
-}
-ul.dash li > .d {
-	color: #003D76;
-}
-
-ol {
-	behavior:expression(
-		function(eOl){
-			$(eOl).find(">li").each(
-				function(){
-					this.runtimeStyle.marginLeft = "2.5em";
-				}
-			);
-			eOl.runtimeStyle.behavior = "none";
-		}(this)
-	);
 }
