@@ -1,41 +1,41 @@
-.g-cols {
+.cols {
 	position: relative;
 	clear: both;
 	padding-bottom: 1px;
 }
-.g-cols:after {
+.cols:after {
 	clear: both;
 	display: block;
 	content: '';
 }
 
 
-.g-col {
+.col {
 	position: relative;
 }
 
 
 
-.g-col_fill {
+.col_fill {
 	overflow: hidden;
 	z-index: 1;
 }
 
-.g-col_50 {
+.col_50 {
 	float: left;
 	width: 49.9%;
 }
 
-.g-col_33 {
+.col_33 {
 	float: left;
 	width: 33.33%;
 }
 
-.g-col_25 {
+.col_25 {
 	float: left;
 	width: 25%;
 }
 
-.g-col_right {
+.col_right {
 	float: right;
 }
