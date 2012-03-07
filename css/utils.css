@@ -22,7 +22,7 @@
 }
 
 
-.g-unselectable{
+.g-unselectable {
 	-moz-user-select: none;
 	-webkit-user-select: none;
 }
@@ -73,10 +73,33 @@
 }
 
 
+.g-note {
+	color: #333;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.g-note_small {
+	font-size: 73%;
+}
+
+
 .g-small {
 	font-size: 86.67%;
 }
 
 .g-moderate {
 	font-size: 93%;
+}
+
+
+.g-closer {
+	margin-top: -0.7em;
+}
+
+
+.g-hang {
+	position: relative;
+	margin-left: -1.25em;
+	padding-right: .25em;
 }

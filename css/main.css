@@ -37,21 +37,7 @@ body {
 
 
 
-/* General text styles */
-
-.g-note {
-	color: #333;
-	font-style: italic;
-	font-size: 80%;
-}
-
-.g-note_small {
-	font-size: 73%;
-}
-
-
-
-.g-fader {
+.fader {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -61,6 +47,6 @@ body {
 	opacity: 0.85;
 	z-index: 200;
 }
-.lte9 .g-fader {
+.lte9 .fader {
 	filter: alpha(opacity=85);
 }

@@ -23,10 +23,6 @@ p, dl {
 	margin-bottom: 1.2em;
 }
 
-p.closer {
-	margin-top: -0.7em;
-}
-
 p.compact {
 	margin-bottom: 0.5em;
 }
@@ -179,7 +175,6 @@ h1, h2, h3, h4 {
 h1 {
 	position: relative;
 	font-size: 173%;
-	font-weight: normal;
 	margin: 0 0 .5em;
 	line-height: 1.2;
 }
@@ -218,16 +213,10 @@ blockquote {
 	margin-bottom: 1em;
 }
 
-.g-hang {
-	position: relative;
-	margin-left: -1.25em;
-	padding-right: .25em;
-}
-
+		
 .file {
 	padding-left: 30px;
 	position: relative;
-	font-size: 87%;
 }
 .file + .file {
 	margin-top: -.5em;
