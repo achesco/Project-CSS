@@ -2,21 +2,21 @@
 	position: relative;
 }
 
-.g-icon {
+.i {
 	position: absolute;
 	overflow: hidden;
 	background: url("icons.png") no-repeat;
 }
 
-a .g-icon,
-.pseudo .g-icon {
+a .i,
+.pseudo .i {
 	cursor: pointer;
 }
 
 
 /* File icons (begin) */
 
-.file .g-icon {
+.file .i {
 	background: url("file-icons.png") no-repeat;
 	width: 24px;
 	height: 26px;
@@ -24,9 +24,9 @@ a .g-icon,
 	left: 0;
 }
 
-/* .g-icon_... */
+/* .i_... */
 
 /* File icons (end) */
 
 
-/* .g-icon_... */
+/* .i_... */
