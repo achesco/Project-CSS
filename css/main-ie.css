@@ -17,3 +17,11 @@ textarea,
 select {
 	font-size: 100%;
 }
+
+
+.g-unselectable{
+	behavior: expression(
+		( this.onselectstart = function(){ return !(1+(' ' + this.className + ' ').indexOf(' g-unselectable ')) } ),
+		( this.style.behavior = null )
+	);
+}

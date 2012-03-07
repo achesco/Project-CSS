@@ -25,10 +25,6 @@
 .g-unselectable{
 	-moz-user-select: none;
 	-webkit-user-select: none;
-	/* ??? */ behavior: expression(
-		( this.onselectstart = function(){ return !(1+(' ' + this.className + ' ').indexOf(' unselectable ')) } ),
-		( this.style.behavior = null )
-	);
 }
 /* Opera */
 .g-unselectable::selection { color: inherit }
