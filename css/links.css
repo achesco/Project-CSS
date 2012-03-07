@@ -1,5 +1,5 @@
 a,
-.g-pseudo {
+.pseudo {
 	text-decoration: none;
 	border-bottom: 1px solid;
 }
@@ -7,8 +7,8 @@ a,
 a,
 a.no-visited:visited,
 .no-visited a:visited, /* вводим спец. класс для ссылок, не имеющих посещения */
-.g-pseudo,
-.g-pseudo:visited { /* псевдоссылки не могут быть посещены, даже если это тег a */
+.pseudo,
+.pseudo:visited { /* псевдоссылки не могут быть посещены, даже если это тег a */
 	color: #043f76;
 	border-color: #043f76;
 	border-color: rgba(4,63,118,0.3);
@@ -23,8 +23,8 @@ a:visited {
 a.alt,
 a.alt.no-visited,
 a.alt.no-visited:visited,
-.g-pseudo.alt,
-.g-pseudo.alt:visited,
+.pseudo.alt,
+.pseudo.alt:visited,
 .alt-links a,
 .alt-links .pseudo,
 .alt-links .pseudo:visited,
@@ -38,8 +38,8 @@ a.alt.no-visited:visited,
 a.alt_2,
 a.alt_2.no-visited,
 a.alt_2.no-visited:visited,
-.g-pseudo.alt_2,
-.g-pseudo.alt_2:visited,
+.pseudo.alt_2,
+.pseudo.alt_2:visited,
 .alt-links_2 a,
 .alt-links_2 .pseudo,
 .alt-links_2 .pseudo:visited,
@@ -55,18 +55,18 @@ a.alt_2.no-visited:visited,
 	и если тут не будет !important, то ховер таких ссылок затрётся.
 */
 a:hover,
-.js .g-pseudo:hover {
+.js .pseudo:hover {
 	color: #cc0000 !important;
 	border-color: #cc0000 !important;
 }
 
 
-.g-pseudo {
+.pseudo {
 	border-bottom-style: dotted;
 	cursor: pointer;
 }
 
-.no-js .g-pseudo {
+.no-js .pseudo {
 	border-bottom: none;
 	cursor: auto;
 }
