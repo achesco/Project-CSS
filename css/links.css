@@ -28,8 +28,8 @@ a.alt.no-visited:visited,
 .alt-links a,
 .alt-links .pseudo,
 .alt-links .pseudo:visited,
-.alt-no-visited a,
-.alt-no-visited a:visited {
+.alt.no-visited a,
+.alt.no-visited a:visited {
 	color: #000;
 	border-color: #000;
 	border-color: rgba(0,0,0,0.3);
