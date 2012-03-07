@@ -6,7 +6,6 @@
 
 .g-cleared {
 	clear: both;
-	padding-bottom: 1px; /* Margin-bottom fix for Opera <= 10 */
 }
 .g-cleared:after {
 	clear: both;
