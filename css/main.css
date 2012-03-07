@@ -1,0 +1,66 @@
+body {
+	color: #000;
+	background: #fff;
+	font: normal 93.75%/1.4 Helvetica, Arial, sans-serif;
+}
+
+
+/* Common page layout styles (begin) */
+
+.page {
+	position: relative;
+	min-height: 100%;
+	min-width: 980px;
+	max-width: 1400px;
+}
+
+.page-header {
+	position: relative;
+	width: 100%;
+}
+
+
+.page-content {
+	position: relative;
+	
+}
+
+
+.page-footer {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	height: 10em;
+	padding: 0 0 1em 0;
+	margin-top: -11em;
+}
+
+
+
+/* General text styles */
+
+.g-note {
+	color: #333;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.g-note_small {
+	font-size: 73%;
+}
+
+
+
+.g-fader {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #044076;
+	opacity: 0.85;
+	z-index: 200;
+}
+.lte9 .g-fader {
+	filter: alpha(opacity=85);
+}
