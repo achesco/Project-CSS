@@ -70,7 +70,3 @@ a:hover,
 	border-bottom: none;
 	cursor: auto;
 }
-
-/* ??? */ .js a.g-pseudo {
-	border-bottom-style: solid;
-}
