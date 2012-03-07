@@ -28,8 +28,8 @@ a.alt.no-visited:visited,
 .alt-links a,
 .alt-links .pseudo,
 .alt-links .pseudo:visited,
-.alt.no-visited a,
-.alt.no-visited a:visited {
+.alt-links.no-visited a,
+.alt-links.no-visited a:visited {
 	color: #000;
 	border-color: #000;
 	border-color: rgba(0,0,0,0.3);
@@ -43,8 +43,8 @@ a.alt_2.no-visited:visited,
 .alt-links_2 a,
 .alt-links_2 .pseudo,
 .alt-links_2 .pseudo:visited,
-.alt_2.no-visited a,
-.alt_2.no-visited a:visited {
+.alt-links_2.no-visited a,
+.alt-links_2.no-visited a:visited {
 	color: #fff;
 	border-color: #fff;
 	border-color: rgba(255,255,255,0.3);
