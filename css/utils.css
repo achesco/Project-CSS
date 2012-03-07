@@ -35,6 +35,7 @@
 	white-space: nowrap;
 }
 
+
 /* Cross-browser inline-block */
 .g-section {
 	display: -moz-inline-box;
@@ -44,22 +45,11 @@
 	zoom: 1;
 	*display: inline;
 }
-.g-section_baseline {
+.g-section_va-bl {
 	vertical-align: baseline;
 }
-.g-section_bottom {
+.g-section_va-b {
 	vertical-align: bottom;
-}
-
-/* Reducers */
-/* ??? */ .g-box-reducer {
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-/* ??? */ .g-column-reducer {
-	padding-left: 15px;
-	padding-right: 15px;
 }
 
 
@@ -89,9 +79,4 @@
 
 .g-moderate {
 	font-size: 93%;
-}
-
-
-.stick-to-header {
-	margin-top: -.7em;
 }
