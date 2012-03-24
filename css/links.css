@@ -14,15 +14,9 @@ a.no-visited:visited,
 	border-color: rgba(4,63,118,0.3);
 }
 
-a:visited {
-	color: #800080;
-	border-color: #800080;
-	border-color: rgba(128,0,128,0.3);
-}
-
 a.alt,
-a.alt.no-visited,
 a.alt.no-visited:visited,
+.no-visited a.alt:visited,
 .pseudo.alt,
 .pseudo.alt:visited,
 .alt-links a,
@@ -36,8 +30,8 @@ a.alt.no-visited:visited,
 }
 
 a.alt_2,
-a.alt_2.no-visited,
 a.alt_2.no-visited:visited,
+.no-visited a.alt_2:visited,
 .pseudo.alt_2,
 .pseudo.alt_2:visited,
 .alt-links_2 a,
@@ -48,6 +42,12 @@ a.alt_2.no-visited:visited,
 	color: #fff;
 	border-color: #fff;
 	border-color: rgba(255,255,255,0.3);
+}
+
+a:visited {
+	color: #800080;
+	border-color: #800080;
+	border-color: rgba(128,0,128,0.3);
 }
 
 /*
