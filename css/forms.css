@@ -1,3 +1,7 @@
+.form_no-required-asterics dl.zf-required-ok dt label ins,
+.form_no-required-asterics .zf-required-ok legend span ins,
+.form_no-required-asterics dl.zf-required-ok dt label:after,
+.form_no-required-asterics .zf-required-ok legend span:after,
 .form_no-required-asterics .zf-required label:after,
 .form_no-required-asterics .zf-required legend span:after {
 	display: none !important;
