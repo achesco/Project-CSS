@@ -29,16 +29,16 @@ a.alt.no-visited:visited,
 	border-color: rgba(0,0,0,0.3);
 }
 
-a.alt_2,
-a.alt_2.no-visited:visited,
-.no-visited a.alt_2:visited,
-.pseudo.alt_2,
-.pseudo.alt_2:visited,
-.alt-links_2 a,
-.alt-links_2 .pseudo,
-.alt-links_2 .pseudo:visited,
-.alt-links_2.no-visited a,
-.alt-links_2.no-visited a:visited {
+a.alt-2,
+a.alt-2.no-visited:visited,
+.no-visited a.alt-2:visited,
+.pseudo.alt-2,
+.pseudo.alt-2:visited,
+.alt-links-2 a,
+.alt-links-2 .pseudo,
+.alt-links-2 .pseudo:visited,
+.alt-links-2.no-visited a,
+.alt-links-2.no-visited a:visited {
 	color: #fff;
 	border-color: #fff;
 	border-color: rgba(255,255,255,0.3);
