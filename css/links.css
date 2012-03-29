@@ -58,6 +58,7 @@ a:hover,
 .js .pseudo:hover {
 	color: #cc0000 !important;
 	border-color: #cc0000 !important;
+	border-color: rgba(204,0,0,0.3) !important;
 }
 
 
